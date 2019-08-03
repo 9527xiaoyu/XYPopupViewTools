@@ -1,0 +1,22 @@
+{
+  "name": "XYPopupViewTools",
+  "version": "0.1.0",
+  "summary": "A short description of XYPopupViewTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/9527xiaoyu/XYPopupViewTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "9527xiaoyu": "1446899815@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/9527xiaoyu/XYPopupViewTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XYPopupViewTools/Classes/**/*"
+}

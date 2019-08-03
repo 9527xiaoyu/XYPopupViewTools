@@ -1,0 +1,16 @@
+PODS:
+  - XYPopupViewTools (0.1.0)
+
+DEPENDENCIES:
+  - XYPopupViewTools (from `../`)
+
+EXTERNAL SOURCES:
+  XYPopupViewTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYPopupViewTools: 1851ee7d57f99754035ec5331ef190fc5bbd7d01
+
+PODFILE CHECKSUM: da7a2e93738ad455a7ecfd24f5a92e1ab5546d0c
+
+COCOAPODS: 1.6.0

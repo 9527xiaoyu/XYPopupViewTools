@@ -1,0 +1,6 @@
+framework module XYPopupViewTools {
+  umbrella header "XYPopupViewTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
