@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XYPopupViewTools_Example' do
+  pod 'XYPopupViewTools', :path => '../'
+
+  target 'XYPopupViewTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
