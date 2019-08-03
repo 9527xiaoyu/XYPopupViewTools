@@ -24,4 +24,5 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
   core.source_files  = 'XYPopupViewTools', 'XYPopupViewTools/**/*.{h,m}'
   core.public_header_files = 'XYPopupViewTools/**/*.h'
+  end
 end
