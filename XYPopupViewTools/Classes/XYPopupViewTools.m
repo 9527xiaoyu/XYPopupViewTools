@@ -21,12 +21,9 @@ static XYTargetShowStyle            _showStyle;         // 显示类型
 static completedBlock               _completed;          // 成功block
 static CGFloat                      _maskAlpha;
 
-static BOOL                         _animated;          // 是否需要动画
 static BOOL                         _hasPopupView;      // 遮罩是否已经显示的判断值
 
 static UIColor                      *_backColor;        // 背景色
-
-#define kAlpha 0.6
 
 @implementation XYPopupViewTools
 

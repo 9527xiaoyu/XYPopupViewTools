@@ -15,7 +15,7 @@
 //动画时长
 #define kAnimDuration 0.2
 //默认透明度
-#define kAlpha 1
+#define kAlpha 0.6
 
 //蒙版透明度
 typedef NS_ENUM(NSUInteger,XYMaskSType) {
