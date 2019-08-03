@@ -24,6 +24,8 @@
 		6F955C2E5D8117489BEF3EB3 /* Pods_XYPopupViewTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B499F429D6B59D2E5BC5A8F /* Pods_XYPopupViewTools_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4E7E8D222F577D300A95FB8 /* XYPopupViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7E8CC22F577D300A95FB8 /* XYPopupViewTools.m */; };
+		A4E7E8D322F577D300A95FB8 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7E8CF22F577D300A95FB8 /* UIView+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +62,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88216280722F771992026CAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E926A0D9791EEF50888C5A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		88216280722F771992026CAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E926A0D9791EEF50888C5A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B499F429D6B59D2E5BC5A8F /* Pods_XYPopupViewTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYPopupViewTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E7E8CC22F577D300A95FB8 /* XYPopupViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPopupViewTools.m; sourceTree = "<group>"; };
+		A4E7E8CD22F577D300A95FB8 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		A4E7E8CE22F577D300A95FB8 /* XYToolsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYToolsConfig.h; sourceTree = "<group>"; };
+		A4E7E8CF22F577D300A95FB8 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		A4E7E8D022F577D300A95FB8 /* XYPopupViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPopupViewTools.h; sourceTree = "<group>"; };
 		A89AA33CB0B07214ADAFD661 /* Pods-XYPopupViewTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYPopupViewTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYPopupViewTools_Tests/Pods-XYPopupViewTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7245FC095D039694A58806C /* XYPopupViewTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYPopupViewTools.podspec; path = ../XYPopupViewTools.podspec; sourceTree = "<group>"; };
+		D7245FC095D039694A58806C /* XYPopupViewTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYPopupViewTools.podspec; path = ../XYPopupViewTools.podspec; sourceTree = "<group>"; };
 		E9E6152486F3AF8F10245E50 /* Pods_XYPopupViewTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYPopupViewTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A27F409D069FBECF6A83DF /* Pods-XYPopupViewTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYPopupViewTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYPopupViewTools_Tests/Pods-XYPopupViewTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +110,6 @@
 				A89AA33CB0B07214ADAFD661 /* Pods-XYPopupViewTools_Tests.debug.xcconfig */,
 				F1A27F409D069FBECF6A83DF /* Pods-XYPopupViewTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +150,7 @@
 		6003F593195388D20070C39A /* Example for XYPopupViewTools */ = {
 			isa = PBXGroup;
 			children = (
+				A4E7E8CA22F577D300A95FB8 /* Classes */,
 				6003F59C195388D20070C39A /* XYAppDelegate.h */,
 				6003F59D195388D20070C39A /* XYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -195,6 +202,18 @@
 				88216280722F771992026CAD /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A4E7E8CA22F577D300A95FB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4E7E8CC22F577D300A95FB8 /* XYPopupViewTools.m */,
+				A4E7E8CD22F577D300A95FB8 /* UIView+Util.h */,
+				A4E7E8CE22F577D300A95FB8 /* XYToolsConfig.h */,
+				A4E7E8CF22F577D300A95FB8 /* UIView+Util.m */,
+				A4E7E8D022F577D300A95FB8 /* XYPopupViewTools.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,8 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E7E8D322F577D300A95FB8 /* UIView+Util.m in Sources */,
 				6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XYViewController.m in Sources */,
+				A4E7E8D222F577D300A95FB8 /* XYPopupViewTools.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
