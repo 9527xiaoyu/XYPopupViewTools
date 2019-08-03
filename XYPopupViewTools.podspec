@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = 'XYPopupViewTools'
-  s.version      = '0.1.0'
+  s.version      = '0.1.1'
   s.summary      = 'XYPopupViewTools是一个将弹出式视图简易化集成工具，一句话完成弹出式视图部署'
 
   s.homepage     = 'https://github.com/9527xiaoyu/XYPopupViewTools'
